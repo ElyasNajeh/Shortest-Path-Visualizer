@@ -1,7 +1,10 @@
+* text=auto
+/.gitattributes text eol=lf
+/.gitignore text eol=lf
 /mvnw text eol=lf
-/mvnwDebug text eol=lf
 /mvnw.cmd text eol=crlf
-/mvnwDebug.cmd text eol=crlf
 *.java text eol=lf
 *.css text eol=lf
 *.md text eol=lf
+*.properties text eol=lf
+*.xml text eol=lf

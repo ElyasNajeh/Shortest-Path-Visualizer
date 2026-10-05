@@ -1,21 +1,83 @@
-# Maven output
+# Maven build and release output
 target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
 
-# Legacy or IDE build output
+# Java build artifacts
 bin/
+build/
 out/
+classes/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+!.mvn/wrapper/maven-wrapper.jar
 
-# IDE metadata
+# Test, coverage, and JVM diagnostic output
+surefire-reports/
+failsafe-reports/
+jacoco.exec
+*.hprof
+hs_err_pid*
+replay_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Visual Studio Code
+.vscode/
+
+# Eclipse
 .classpath
 .project
 .settings/
-.idea/
-.vscode/
-*.iml
+.factorypath
+.apt_generated/
+.apt_generated_tests/
 
-# OS and temporary files
-.DS_Store
-Thumbs.db
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Logs and temporary/editor files
+logs/
 *.log
 *.tmp
+*.temp
+*.bak
+*.orig
+*.rej
 *.swp
+*.swo
+*~
+.cache/
+
+# Local environment files (templates remain trackable)
+.env
+.env.*
+!.env.example
+
+# Operating-system metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.directory
