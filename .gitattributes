@@ -1,0 +1,7 @@
+/mvnw text eol=lf
+/mvnwDebug text eol=lf
+/mvnw.cmd text eol=crlf
+/mvnwDebug.cmd text eol=crlf
+*.java text eol=lf
+*.css text eol=lf
+*.md text eol=lf
